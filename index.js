@@ -1,7 +1,8 @@
-require("dotenv").config();
+//프로그램 실행전 npm i 잊지마세요
+require("dotenv").config();//환경변수 안에 토큰값넣는걸 추천
 const { CommandHandler } = require("djs-commander");
 const { Client, IntentsBitField } = require("discord.js");
-// const { REST, Routes } = require('discord.js');
+
 const path = require("path");
 
 
