@@ -1,8 +1,9 @@
 {
   "dependencies": {
-    "discord.js": "^14.14.1",
-    "djs-commander": "^0.0.50",
-    "dotenv": "^16.3.1"
+    "discord.js": "^14.16.3",
+    "djs-commander": "latest",
+    "dotenv": "^16.4.5",
+    "sqlite3": "^5.1.7"
   },
   "name": "discordzyam",
   "version": "1.0.0",

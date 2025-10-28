@@ -1,7 +1,8 @@
+require('dotenv').config();
 const { REST, Routes } = require('discord.js');
-const { clientId, guildId, token } = require('./config.json');
-const rest = new REST().setToken(token);//봇발급시 받은 토큰값(git에 올릴경우 환경변수처리 추천)
-
+const { clientId, guildId} = require('./config.json');
+//const rest = new REST().setToken(token);//봇발급시 받은 토큰값(git에 올릴경우 환경변수처리 추천)
+const rest = new REST().setToken(process.env.TOKEN);
 
 //커맨드 삭제 명령어 :원하는 커맨드의 ID(디스코드 디밸롭모드 사용해서 우클릭후 복사) 갑을 집어넣으시면 됩니다
 
